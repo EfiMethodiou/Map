@@ -1,0 +1,124 @@
+/*_________________________Phase___2_________________________*/
+.projectLines{  
+    position: absolute;
+    width: 50%;
+    height: 60%;    
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+  
+  
+  .epimLine{ 
+    position: relative;
+    width: 0%; 
+    height: 1px; 
+    border:none;
+    border-top:2px dotted #14425f;
+    color:#fff;
+    background-color:#fff;  
+    margin-left: 56%;
+    margin-top: 21%;
+    transform:rotate(-22deg);
+    animation: load1 1s normal 2.2s forwards ;          /*TIME*/
+  }
+  @keyframes load1 {
+    from {
+      width: 0;
+    }
+    to{    
+      width: 20%;
+    }
+  }
+  
+  .rhizLine{ 
+    position: relative;
+    width: 0; 
+    height: 1px; 
+    border:none;
+    border-top:2px dotted #14425f;
+    color:#fff;
+    background-color:#fff;  
+    margin-left: 59%;
+    margin-top: 20%;
+    transform:rotate(14deg);
+    animation: load2 1s normal 2.2s forwards ;         /* TIME*/
+  }
+  @keyframes load2 {
+    from {
+      width: 0;
+    }
+    to{    
+      width: 32%;
+    }
+  }
+  .chicLine{ 
+    position: relative;
+    width:0; 
+    height: 1px; 
+    border:none;
+    border-top:2px dotted #14425f;
+    color:#fff;
+    background-color:#fff;
+    transform:rotate(-45deg);
+    animation: load3 1s normal 2.2s forwards ;         /*TIME*/
+  }
+  @keyframes load3 {
+    from {
+      margin-left: 45%;
+      top: -5%;
+      width: 0;
+    }
+    to{    
+      top: 8%;
+      margin-left: 36%;
+      width: 13%;
+    }
+  }
+  .artLine{ 
+    position: relative;
+    width: 0; 
+    height: 1px; 
+    border:none;
+    border-top:2px dotted #14425f;
+    color:#fff;
+    background-color:#fff;   
+    transform:rotate(-5deg);
+     animation: load4 1s normal 2.2s forwards ;          /*TIME*/
+  }
+  @keyframes load4 {
+    from {
+      margin-top: -5%;
+      width: 0;
+      right: -40%;
+    }
+    to{ 
+      margin-top: -1%;
+      right: -5%;   
+      width: 38%;
+    }
+  }
+  
+  .capLine{ 
+    position: relative;
+    width: 0; 
+    height: 1px; 
+    border:none;
+    border-top:2px dotted #14425f;
+    color:#fff;
+    background-color:#fff;   
+    transform:rotate(20deg);
+    animation: load5 1s normal 2.2s forwards ;         /* TIME*/
+  }
+  @keyframes load5 {
+    from {    
+      width: 0;
+      margin-top: -16%;
+      right: -40%;
+    }
+    to{ 
+      margin-top: -16%;
+      right: -9%;    
+      width: 33%;
+    }
+  }
+  

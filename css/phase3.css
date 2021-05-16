@@ -1,0 +1,109 @@
+/*______________________PHASE__3__________________*/
+
+.projects{     
+    position: absolute;
+    width: 90%;
+    height: 95%;    
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+ 
+  .projects a{
+    text-decoration: none;
+  }
+  
+  .projects #epimLogo{
+    position: relative;
+    cursor: pointer;
+    width: 7%;
+    top: 25%;
+    left: 32%;
+    opacity: 0;
+    animation: show1 4s normal 2.8s forwards;  
+   
+  }
+  @keyframes show1{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }  
+  }
+  
+  
+  .projects #rhizLogo{
+    position: relative;
+    cursor: pointer;
+    width: 7%;
+    top: 56%;
+    left: 33%;
+    opacity: 0;
+    animation: show2 4s normal 3.2s forwards ;          /*TIME*/
+  }
+  @keyframes show2{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }    
+  }
+  
+  .projects #chicLogo{
+    position: relative;
+    cursor: pointer;
+    width: 7%;
+    top: 66%;
+    right: 8%;
+    opacity: 0;
+    animation: show3 4s normal 3.6s forwards ;          /*TIME*/
+  }
+  @keyframes show3{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    
+  }
+  
+  .projects #artLogo{
+    position: relative;
+    cursor: pointer;
+    width: 7%;
+    top: 54%;
+    right: 35%;
+    opacity: 0;
+    animation: show4 4s normal 4s forwards ;          /*TIME*/
+  }
+  @keyframes show4{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    
+  }
+  
+  .projects #capLogo{
+    position: relative;
+    cursor: pointer;
+    width: 7%;
+    top: 25%;
+    right: 39%;
+    opacity: 0;
+    animation: show5 4s normal 4.4s forwards ;          /*TIME*/
+  }
+  @keyframes show5{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+   
+  }
+  
